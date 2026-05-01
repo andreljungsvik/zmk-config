@@ -20,6 +20,10 @@
 ---
 include:
   - board: glove80_lh
+    artifact-name: glove80_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: glove80_rh
+    artifact-name: glove80_right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
