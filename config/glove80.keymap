@@ -110,7 +110,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&rgb_ug RGB_STATUS>;
+                = <&rgb_ug RGB_TOG>;
         };
     };
 };
@@ -1776,6 +1776,13 @@
 
 /* Automatically generated keymap */
 / {
+    
+/ {
+    zmk_studio: zmk_studio {
+        compatible = "zmk,studio";
+    };
+};
+
     keymap {
         compatible = "zmk,keymap";
 
